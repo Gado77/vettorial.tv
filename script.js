@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }, observerOptions);
 
-    document.querySelectorAll('.animate-fade-in').forEach(el => {
+    document.querySelectorAll('.animate-fade-in, .fade-in-section').forEach(el => {
         animationObserver.observe(el);
     });
 
